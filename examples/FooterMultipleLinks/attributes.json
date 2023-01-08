@@ -1,0 +1,8 @@
+{
+  "title": "Footer with multiple links",
+  "type": "footers",
+  "author": "ryuhangyeong",
+  "dependencies": ["container", "divider", "link"],
+  "justify-content": "center",
+  "align-items": "center"
+}

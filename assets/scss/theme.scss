@@ -1,0 +1,8 @@
+html.dark {
+  body,
+  #__nuxt {
+    background-color: var(--epe-c-dark-black);
+  }
+}
+
+@import 'element-plus/theme-chalk/dark/css-vars.css';

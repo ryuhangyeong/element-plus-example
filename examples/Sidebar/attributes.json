@@ -1,0 +1,8 @@
+{
+  "title": "Sidebar",
+  "type": "sidebars",
+  "author": "ryuhangyeong",
+  "dependencies": ["icon", "input", "menu"],
+  "justify-content": "start",
+  "align-items": "start"
+}

@@ -1,0 +1,8 @@
+{
+  "title": "List with radio group",
+  "type": "listgroups",
+  "author": "ryuhangyeong",
+  "dependencies": ["radio"],
+  "justify-content": "center",
+  "align-items": "center"
+}

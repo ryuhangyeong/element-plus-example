@@ -1,0 +1,8 @@
+{
+  "title": "Divider with icon",
+  "type": "dividers",
+  "author": "ryuhangyeong",
+  "dependencies": ["divider", "icon"],
+  "justify-content": "center",
+  "align-items": "center"
+}

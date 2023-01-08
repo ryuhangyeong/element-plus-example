@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "analyze": "nuxt analyze"
+  },
+  "devDependencies": {
+    "@types/escape-html": "^1.0.2",
+    "@types/prismjs": "^1.26.0",
+    "@unocss/nuxt": "^0.48.0",
+    "nuxt": "3.0.0",
+    "nuxt-icon": "^0.1.8",
+    "push-dir": "^0.4.1"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.0.10",
+    "element-plus": "^2.2.27",
+    "escape-html": "^1.0.3",
+    "prismjs": "^1.29.0",
+    "sass": "^1.57.1",
+    "sass-loader": "^13.2.0"
+  }
+}

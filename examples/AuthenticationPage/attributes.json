@@ -1,0 +1,8 @@
+{
+  "title": "authentication page",
+  "type": "authentications",
+  "author": "ryuhangyeong",
+  "dependencies": ["button", "checkbox", "form", "link"],
+  "justify-content": "center",
+  "align-items": "center"
+}

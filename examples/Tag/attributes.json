@@ -1,0 +1,6 @@
+{
+  "title": "Tag",
+  "type": "tags",
+  "author": "ryuhangyeong",
+  "dependencies": ["card", "tag"]
+}

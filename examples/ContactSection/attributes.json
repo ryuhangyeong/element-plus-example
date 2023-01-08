@@ -1,0 +1,8 @@
+{
+  "title": "contact section",
+  "type": "contacts",
+  "author": "ryuhangyeong",
+  "dependencies": ["button", "card", "form", "layout"],
+  "justify-content": "center",
+  "align-items": "center"
+}
