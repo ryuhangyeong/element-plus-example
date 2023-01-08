@@ -1,5 +1,7 @@
 # Element Plus Example (Beta)
 
+<img width="782" alt="element-plus-example-img" src="https://user-images.githubusercontent.com/27342882/211179433-125b8700-e9b6-48c0-b5a5-36ead8d76bbb.png">
+
 - Element Plus
 - Unocss
 
