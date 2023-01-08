@@ -18,4 +18,4 @@ If you have any direction and opinions about the project, please feel free to le
 ## Get inspired
 
 - Mantine UI
-- Boostrap Examples
+- Bootstrap Examples
