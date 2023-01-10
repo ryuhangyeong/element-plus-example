@@ -9,28 +9,28 @@ const toggleDark = useToggle(isDark)
 <template>
   <el-header
     height="55px"
-    class="fixed z-[1000] border-b border-b-[#dcdfe6] border-b-solid bg-white px-0 w-full dark:bg-[#1a1a1a] dark:border-b-[#242424]"
+    class="fixed z-[1000] border-b border-b-solid border-b-gray-200 bg-white px-0 w-full font-semibold dark:bg-[#1a1a1a] dark:border-b-[#1a1a1a] dark:text-white"
   >
     <AppContainer class="flex justify-between items-center h-full">
-      <h1 class="m-0 text-[16px]">
+      <h1 class="m-0 text-base">
         <AppLogo />
       </h1>
       <div class="flex items-center">
         <client-only>
-          <div @click="toggleDark()" class="flex cursor-pointer mr-[10px]">
-            <el-icon v-if="isDark" :size="18" class="dark:text-white">
+          <a href="#" @click="toggleDark()" class="flex mr-4 cursor-pointer">
+            <el-icon v-if="isDark" :size="20" class="dark:text-white">
               <Sunny />
             </el-icon>
-            <el-icon v-else :size="18">
+            <el-icon v-else :size="20">
               <Moon />
             </el-icon>
-          </div>
+          </a>
           <a
             href="https://github.com/ryuhangyeong/element-plus-example"
-            :class="isDark ? `text-white` : `text-[#333]`"
+            :class="isDark ? `text-white` : `text-gray-800`"
             target="_blank"
           >
-            <Icon name="uil:github" class="text-[26px]" />
+            <Icon name="uil:github" class="text-2xl" />
           </a>
         </client-only>
       </div>
