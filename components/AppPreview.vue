@@ -26,7 +26,7 @@ init()
 <template>
   <section
     v-if="Component"
-    class="flex min-h-[600px] box-border dark:bg-[#141414]"
+    class="flex min-h-[600px] dark:bg-[#1a1a1a]"
     :class="[`justify-${justifyContent}`, `items-${alignItems}`]"
   >
     <Component />
