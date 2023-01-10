@@ -8,15 +8,9 @@ const isDark = useDark()
 
 <template>
   <AppHero />
-  <AppContainer
-    v-for="category in examples"
-    :key="category.name"
-    class="mt-[20px]"
-  >
+  <AppContainer v-for="category in examples" :key="category.name" class="mt-5">
     <div class="flex items-center">
-      <h2 class="m-0 mb-[20px] text-[24px] dark:text-white">
-        {{ category.name }} UI
-      </h2>
+      <h2 class="m-0 mb-5 text-2xl dark:text-white">{{ category.name }} UI</h2>
     </div>
     <el-row :gutter="20">
       <el-col
@@ -27,37 +21,28 @@ const isDark = useDark()
         :md="12"
         :lg="6"
         :xl="6"
-        class="mb-[20px]"
+        class="mb-5"
       >
         <el-card
           shadow="never"
           :body-style="{
             padding: 0,
           }"
-          :class="[
-            'card',
-            {
-              dark: isDark,
-            },
-          ]"
+          :class="[isDark ? 'bg-[#242424] border-none' : '']"
         >
-          <NuxtLink
-            :to="`/example/${example.name.toLowerCase()}`"
-            class="decoration-none"
-          >
-            <div
-              class="h-[200px] bg-[#f8f9fa] overflow-hidden text-center dark:bg-[#242424]"
-            >
+          <NuxtLink :to="`/example/${example.name.toLowerCase()}`">
+            <div class="h-52 bg-gray-50 text-center dark:bg-[#242424]">
               <img
                 :src="`/element-plus-example/img/logo/${example.name.toLocaleLowerCase()}.svg`"
                 loading="lazy"
+                class="inline-block"
               />
             </div>
-            <div class="p-[20px] dark:bg-[#1a1a1a]">
-              <p class="m-0 text-[#333] dark:text-white">
+            <div class="p-5 dark:bg-[#1a1a1a]">
+              <p class="m-0 text-gray-800 dark:text-white">
                 {{ example.name }}
               </p>
-              <p class="m-0 mt-[6px] text-[12px] text-[#868e96]">
+              <p class="m-0 mt-2 text-xs text-gray-500">
                 <span>
                   {{ example.components.length }}
                 </span>
@@ -70,12 +55,3 @@ const isDark = useDark()
     </el-row>
   </AppContainer>
 </template>
-
-<style scoped lang="scss">
-.card {
-  &.dark {
-    border: none;
-    background-color: #242424;
-  }
-}
-</style>
