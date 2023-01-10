@@ -22,7 +22,7 @@ const copyCode = () => {
     <div v-html="highlight(code, 'vue')" />
     <el-tooltip :content="copied ? 'Copied!' : 'Copy code'">
       <el-icon
-        class="absolute top-[10px] right-[10px] color-[#909399] hover:color-[#303133] cursor-pointer dark:hover:text-white"
+        class="absolute top-3 right-3 text-gray-500 hover:text-gray-400 cursor-pointer dark:hover:text-white"
         @click="copyCode"
       >
         <CopyDocument />
