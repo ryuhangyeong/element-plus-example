@@ -23,7 +23,7 @@ const hash = computed(() =>
 <template>
   <el-card
     shadow="never"
-    class="mb-[30px]"
+    class="mb-8"
     :body-style="{
       padding: 0,
     }"
@@ -31,7 +31,7 @@ const hash = computed(() =>
   >
     <template #header>
       <el-row>
-        <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
+        <el-col :sm="24" :md="12">
           <div class="flex items-center">
             <el-popover
               placement="bottom-start"
@@ -45,21 +45,21 @@ const hash = computed(() =>
                 <el-button :icon="Collection" circle />
               </template>
               <div v-if="component.dependencies.length > 0">
-                <p class="block m-0 p-[10px]">Component dependencies</p>
-                <ul class="m-0 p-0 list-none">
+                <p class="block p-3">Component dependencies</p>
+                <ul>
                   <li
                     v-for="dependencie in component.dependencies"
                     :key="dependencie"
                   >
                     <a
                       :href="`https://element-plus.org/en-US/component/${dependencie}.html`"
-                      class="flex items-center p-[10px] hover:bg-[#f5f7fa] text-[#409eff] decoration-none first-capitalize dark:hover:bg-[#1a1a1a]"
+                      class="flex items-center p-3 text-[#409eff] hover:bg-gray-100 dark:hover:bg-gray-600"
                       target="_blank"
                     >
                       <el-icon size="16">
                         <ElementPlus />
                       </el-icon>
-                      <span class="ml-[10px] text-[#333] dark:text-white">
+                      <span class="ml-3 text-gray-900 dark:text-white">
                         {{ dependencie }}
                       </span>
                     </a>
@@ -70,24 +70,17 @@ const hash = computed(() =>
             </el-popover>
             <nuxt-link
               :to="{ hash: `#${hash}` }"
-              class="m-0 ml-[10px] decoration-none font-600 text-[16px] text-[#333] dark:text-white"
+              class="ml-2 text-base text-gray-900 dark:text-white"
             >
               {{ component.title }}
             </nuxt-link>
           </div>
         </el-col>
-        <el-col
-          :xs="24"
-          :sm="24"
-          :md="12"
-          :lg="12"
-          :xl="12"
-          class="flex justify-end"
-        >
+        <el-col :sm="24" :md="12" class="flex justify-end">
           <el-radio-group v-model="mode">
             <el-radio-button label="preview">
               <div class="flex">
-                <el-icon class="mr-[8px]">
+                <el-icon class="mr-2">
                   <View />
                 </el-icon>
                 Preview
@@ -95,7 +88,7 @@ const hash = computed(() =>
             </el-radio-button>
             <el-radio-button label="code">
               <div class="flex">
-                <el-icon class="mr-[8px]">
+                <el-icon class="mr-2">
                   <Edit />
                 </el-icon>
                 Code
