@@ -9,7 +9,7 @@ const toggleDark = useToggle(isDark)
 <template>
   <el-header
     height="55px"
-    class="fixed z-[1000] border-b border-b-solid border-b-gray-200 bg-white px-0 w-full font-semibold dark:bg-[#1a1a1a] dark:border-b-[#1a1a1a] dark:text-white"
+    class="fixed z-[1000] border-b border-b-solid border-b-gray-200 bg-white px-0 w-full font-semibold dark:bg-[#1a1a1a] dark:border-b-[#414243] dark:text-white"
   >
     <AppContainer class="flex justify-between items-center h-full">
       <h1 class="m-0 text-base">
