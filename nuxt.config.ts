@@ -14,7 +14,7 @@ export default defineNuxtConfig({
       ],
       link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
     },
-    baseURL: '/element-plus-example/',
+    // baseURL: '/element-plus-example/',
   },
   css: ['~/assets/scss/index.scss'],
   build: {
