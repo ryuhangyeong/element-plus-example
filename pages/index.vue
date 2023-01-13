@@ -33,7 +33,7 @@ const isDark = useDark()
           <NuxtLink :to="`/example/${example.name.toLowerCase()}`">
             <div class="h-52 bg-gray-50 text-center dark:bg-[#242424]">
               <img
-                :src="`/element-plus-example/img/logo/${example.name.toLocaleLowerCase()}.svg`"
+                :src="`/img/logo/${example.name.toLocaleLowerCase()}.svg`"
                 loading="lazy"
                 class="inline-block"
               />
