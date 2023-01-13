@@ -21,5 +21,5 @@ export default defineNuxtConfig({
     transpile:
       lifecycle === 'build' || lifecycle === 'generate' ? ['element-plus'] : [],
   },
-  modules: ['nuxt-icon', '@unocss/nuxt'],
+  modules: ['nuxt-icon', '@nuxtjs/tailwindcss'],
 })

@@ -1,8 +1,0 @@
-{
-  "title": "List with checkbox",
-  "type": "listgroups",
-  "author": "ryuhangyeong",
-  "dependencies": ["card", "checkbox", "divider"],
-  "justify-content": "center",
-  "align-items": "center"
-}

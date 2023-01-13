@@ -1,0 +1,7 @@
+{
+  "title": "footer with multiple link",
+  "type": "footers",
+  "dependencies": ["container", "divider", "layout", "link"],
+  "justify-content": "start",
+  "align-items": "start"
+}

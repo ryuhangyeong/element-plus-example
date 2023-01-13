@@ -1,0 +1,7 @@
+{
+  "title": "header with simple menu",
+  "type": "headers",
+  "dependencies": ["container", "icon", "menu"],
+  "justify-content": "start",
+  "align-items": "start"
+}

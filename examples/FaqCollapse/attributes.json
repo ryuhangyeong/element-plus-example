@@ -1,8 +1,0 @@
-{
-  "title": "FAQ using grid",
-  "type": "faqs",
-  "author": "ryuhangyeong",
-  "dependencies": ["icon", "layout"],
-  "justify-content": "center",
-  "align-items": "center"
-}

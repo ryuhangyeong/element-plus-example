@@ -1,8 +1,0 @@
-{
-  "title": "double headers with icons",
-  "type": "headers",
-  "author": "ryuhangyeong",
-  "dependencies": ["button", "container", "divider", "icon", "link"],
-  "justify-content": "center",
-  "align-items": "center"
-}

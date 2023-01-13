@@ -1,8 +1,0 @@
-{
-  "title": "FAQ using Collapse",
-  "type": "faqs",
-  "author": "ryuhangyeong",
-  "dependencies": ["collapse"],
-  "justify-content": "center",
-  "align-items": "center"
-}

@@ -1,0 +1,7 @@
+{
+  "title": "header with double header",
+  "type": "headers",
+  "dependencies": ["container", "drawer", "icon", "input", "link"],
+  "justify-content": "start",
+  "align-items": "start"
+}

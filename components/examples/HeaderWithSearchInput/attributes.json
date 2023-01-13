@@ -1,0 +1,7 @@
+{
+  "title": "header with search input",
+  "type": "headers",
+  "dependencies": ["container", "link", "icon", "input"],
+  "justify-content": "start",
+  "align-items": "start"
+}

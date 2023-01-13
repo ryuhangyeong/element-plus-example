@@ -1,0 +1,7 @@
+{
+  "title": "card with images and user avatar",
+  "type": "cards",
+  "dependencies": ["avatar", "button", "card", "layout"],
+  "justify-content": "center",
+  "align-items": "center"
+}

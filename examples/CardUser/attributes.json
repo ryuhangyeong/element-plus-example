@@ -1,8 +1,0 @@
-{
-  "title": "user card",
-  "type": "cards",
-  "author": "ryuhangyeong",
-  "dependencies": ["avatar", "card", "link"],
-  "justify-content": "center",
-  "align-items": "center"
-}

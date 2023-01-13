@@ -28,6 +28,7 @@ import {
   ElAvatar,
   ElTooltip,
   ElSwitch,
+  ElDrawer,
 } from 'element-plus'
 
 import {
@@ -45,6 +46,12 @@ import {
   Avatar,
   Folder,
   Box,
+  Minus,
+  Close,
+  EditPen,
+  Tools,
+  Operation,
+  Expand,
 } from '@element-plus/icons-vue'
 
 const components = {
@@ -77,6 +84,7 @@ const components = {
   ElAvatar,
   ElTooltip,
   ElSwitch,
+  ElDrawer,
 }
 
 const icons = {
@@ -94,6 +102,12 @@ const icons = {
   Avatar,
   Folder,
   Box,
+  Minus,
+  Close,
+  EditPen,
+  Tools,
+  Operation,
+  Expand,
 }
 
 export default defineNuxtPlugin((nuxtApp) => {

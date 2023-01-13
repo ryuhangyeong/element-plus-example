@@ -1,8 +1,0 @@
-{
-  "title": "Header with multiple buttons and links",
-  "type": "headers",
-  "author": "ryuhangyeong",
-  "dependencies": ["button", "container", "divider", "link"],
-  "justify-content": "center",
-  "align-items": "center"
-}

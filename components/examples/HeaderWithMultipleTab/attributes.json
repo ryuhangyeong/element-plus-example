@@ -1,0 +1,7 @@
+{
+  "title": "header with multiple tab",
+  "type": "headers",
+  "dependencies": ["button", "card", "container", "layot", "icon", "tabs"],
+  "justify-content": "start",
+  "align-items": "start"
+}

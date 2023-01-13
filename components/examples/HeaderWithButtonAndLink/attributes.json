@@ -1,0 +1,7 @@
+{
+  "title": "header with button and link",
+  "type": "headers",
+  "dependencies": ["button", "container", "icon", "link"],
+  "justify-content": "start",
+  "align-items": "start"
+}

@@ -1,0 +1,7 @@
+{
+  "title": "default header",
+  "type": "headers",
+  "dependencies": ["container", "icon", "link"],
+  "justify-content": "start",
+  "align-items": "start"
+}

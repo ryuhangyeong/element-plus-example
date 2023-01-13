@@ -1,8 +1,5 @@
 <template>
-  <NuxtLink
-    to="/"
-    class="color-[#409eff] decoration-none font-700 text-[14px] lg:text-[16px]"
-  >
+  <NuxtLink to="/" class="text-gray-800 text-base dark:text-white">
     Element Plus Example
   </NuxtLink>
 </template>

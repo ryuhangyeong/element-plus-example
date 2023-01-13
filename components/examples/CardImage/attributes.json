@@ -1,0 +1,7 @@
+{
+  "title": "image card",
+  "type": "cards",
+  "dependencies": ["card", "icon"],
+  "justify-content": "center",
+  "align-items": "center"
+}

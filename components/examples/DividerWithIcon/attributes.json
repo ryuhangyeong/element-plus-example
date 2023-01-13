@@ -1,0 +1,7 @@
+{
+  "title": "Divider with icon",
+  "type": "dividers",
+  "dependencies": ["divider", "icon"],
+  "justify-content": "center",
+  "align-items": "center"
+}

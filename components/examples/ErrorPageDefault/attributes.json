@@ -1,0 +1,7 @@
+{
+  "title": "error page default",
+  "type": "errorpages",
+  "dependencies": ["button", "empty"],
+  "justify-content": "center",
+  "align-items": "center"
+}

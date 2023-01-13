@@ -1,8 +1,0 @@
-{
-  "title": "pricing",
-  "type": "pricings",
-  "author": "ryuhangyeong",
-  "dependencies": ["button", "card", "container"],
-  "justify-content": "center",
-  "align-items": "center"
-}

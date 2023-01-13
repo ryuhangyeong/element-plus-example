@@ -1,8 +1,0 @@
-{
-  "title": "Grid with responsive",
-  "type": "grids",
-  "author": "ryuhangyeong",
-  "dependencies": ["container", "layout"],
-  "justify-content": "center",
-  "align-items": "center"
-}

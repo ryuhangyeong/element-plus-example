@@ -1,0 +1,7 @@
+{
+  "title": "grid responsive",
+  "type": "grids",
+  "dependencies": ["container", "layout"],
+  "justify-content": "center",
+  "align-items": "center"
+}

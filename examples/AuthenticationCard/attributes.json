@@ -1,8 +1,0 @@
-{
-  "title": "authentication card",
-  "type": "authentications",
-  "author": "ryuhangyeong",
-  "dependencies": ["button", "card", "checkbox", "form", "link"],
-  "justify-content": "center",
-  "align-items": "center"
-}

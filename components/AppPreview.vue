@@ -15,7 +15,9 @@ const Component = shallowRef('')
 
 // dynamic component
 async function init() {
-  const component = await import(`@/examples/${props.name}/index.vue`)
+  const component = await import(
+    `@/components/examples/${props.name}/index.vue`
+  )
 
   Component.value = component.default
 }
@@ -26,7 +28,7 @@ init()
 <template>
   <section
     v-if="Component"
-    class="flex min-h-[600px] box-border dark:bg-[#141414]"
+    class="flex flex-col min-h-[600px] dark:bg-[#1a1a1a] overflow-auto"
     :class="[`justify-${justifyContent}`, `items-${alignItems}`]"
   >
     <Component />

@@ -1,0 +1,8 @@
+{
+  "title": "tag with count",
+  "type": "tags",
+  "author": "ryuhangyeong",
+  "dependencies": ["card", "tag"],
+  "justify-content": "center",
+  "align-items": "center"
+}
