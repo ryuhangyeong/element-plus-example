@@ -1,8 +1,0 @@
-{
-  "title": "Not found page with icon",
-  "type": "errorpages",
-  "author": "ryuhangyeong",
-  "dependencies": ["button", "empty"],
-  "justify-content": "center",
-  "align-items": "center"
-}

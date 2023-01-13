@@ -1,8 +1,0 @@
-{
-  "title": "Header with multiple tab",
-  "type": "headers",
-  "author": "ryuhangyeong",
-  "dependencies": ["button", "container", "divider", "link", "tabs"],
-  "justify-content": "center",
-  "align-items": "center"
-}

@@ -1,8 +1,0 @@
-{
-  "title": "Sidebar with tooltip",
-  "type": "sidebars",
-  "author": "ryuhangyeong",
-  "dependencies": [],
-  "justify-content": "start",
-  "align-items": "start"
-}

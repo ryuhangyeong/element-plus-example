@@ -1,8 +1,0 @@
-{
-  "title": "Footer with logo in the middle",
-  "type": "footers",
-  "author": "ryuhangyeong",
-  "dependencies": ["container", "divider", "link"],
-  "justify-content": "center",
-  "align-items": "center"
-}

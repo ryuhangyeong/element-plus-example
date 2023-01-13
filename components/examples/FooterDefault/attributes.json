@@ -1,0 +1,7 @@
+{
+  "title": "footer default",
+  "type": "footers",
+  "dependencies": ["container", "divider", "link"],
+  "justify-content": "start",
+  "align-items": "start"
+}

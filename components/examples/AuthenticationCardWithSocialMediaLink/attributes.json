@@ -1,0 +1,7 @@
+{
+  "title": "authentication card with social media link",
+  "type": "authentications",
+  "dependencies": ["button", "card", "checkbox", "form", "icon", "link"],
+  "justify-content": "center",
+  "align-items": "center"
+}

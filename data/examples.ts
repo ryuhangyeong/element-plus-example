@@ -3,7 +3,7 @@ import path from 'path'
 
 import type { Category, Attribute } from './types'
 
-const EXAMPLES_PATH = path.join('examples')
+const EXAMPLES_PATH = path.join('components/examples')
 
 const GET_EXAMPLES = fs.readdirSync(EXAMPLES_PATH)
 
@@ -29,31 +29,11 @@ export const APPLICATION_EXAMPLES = [
     components: [],
   },
   {
-    name: 'ListGroups',
-    components: [],
-  },
-  {
-    name: 'Faqs',
-    components: [],
-  },
-  {
     name: 'Authentications',
     components: [],
   },
   {
     name: 'Pricings',
-    components: [],
-  },
-  {
-    name: 'Jumbotrons',
-    components: [],
-  },
-  {
-    name: 'Sidebars',
-    components: [],
-  },
-  {
-    name: 'Contacts',
     components: [],
   },
 ]

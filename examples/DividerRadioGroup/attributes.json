@@ -1,8 +1,0 @@
-{
-  "title": "Divider with radio group",
-  "type": "dividers",
-  "author": "ryuhangyeong",
-  "dependencies": ["divider", "radio"],
-  "justify-content": "center",
-  "align-items": "center"
-}

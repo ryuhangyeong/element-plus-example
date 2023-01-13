@@ -1,8 +1,0 @@
-{
-  "title": "Not found page",
-  "type": "errorpages",
-  "author": "ryuhangyeong",
-  "dependencies": ["button", "link"],
-  "justify-content": "center",
-  "align-items": "center"
-}
