@@ -9,6 +9,7 @@
     "analyze": "nuxt analyze"
   },
   "devDependencies": {
+    "@element-plus/nuxt": "^1.0.1",
     "@nuxtjs/tailwindcss": "^6.2.0",
     "@types/escape-html": "^1.0.2",
     "@types/prismjs": "^1.26.0",
@@ -20,8 +21,6 @@
     "@element-plus/icons-vue": "^2.0.10",
     "element-plus": "^2.2.27",
     "escape-html": "^1.0.3",
-    "prismjs": "^1.29.0",
-    "sass": "^1.57.1",
-    "sass-loader": "^13.2.0"
+    "prismjs": "^1.29.0"
   }
 }
