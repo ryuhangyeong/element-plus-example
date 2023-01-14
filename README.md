@@ -6,4 +6,4 @@
 - [TailwindCSS](https://tailwindcss.com/)
 - [VueUse](https://vueuse.org/)
 
-Build beautiful and fast websites with Element Plus
+Build a website quickly using a Element Plus
