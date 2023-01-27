@@ -36,6 +36,10 @@ export const APPLICATION_EXAMPLES = [
     name: 'Pricings',
     components: [],
   },
+  {
+    name: 'Faqs',
+    components: [],
+  },
 ]
 
 export const BLOG_EXAMPLES = [
