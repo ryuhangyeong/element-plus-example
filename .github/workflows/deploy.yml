@@ -21,9 +21,6 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Generate static page
-        env:
-          VITE_MICRO_CMS_API_KEY: ${{ secrets.VITE_MICRO_CMS_API_KEY }}
-          VITE_MICRO_CMS_API_URL: ${{ secrets.VITE_MICRO_CMS_API_URL }}
         run: npm run generate
       - name: deploy to Github Page
         uses: peaceiris/actions-gh-pages@v3
