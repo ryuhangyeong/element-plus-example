@@ -56,6 +56,7 @@ export default defineNuxtConfig({
       'ElTooltip',
       'ElSwitch',
       'ElDrawer',
+      'ElBacktop',
     ],
   },
 })
